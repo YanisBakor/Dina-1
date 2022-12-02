@@ -1,22 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Soutien pour tous</title>
-	<style> ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border: 1px solid #e7e7e7;
-  background-color: #f3f3f3;
-}
-
-li {
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Zozor - Carnets de voyage</title>
+    </head>
+#nav {
   float: left;
 }
 
-li a {
+#nav a {
   display: block;
   color: #666;
   text-align: center;
@@ -24,42 +17,76 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+#nav a:hover:not(.active) {
   background-color: #ddd;
 }
 
-li a.active {
+#nav a.active {
   color: white;
   background-color: #04AA6D;
 }
-</style>
-</head>
-<body>
-<section>
-	<div>
-		<h1>Soutien Pour Tous</h1>
-	</div>
-	<div>
-		<ul>
-	  <li><a class="active" href="#home">Accueil</a></li>
-	  <li><a href="Projet.html">Projet</a></li>
-	  <li><a href="#contact">Infos</a></li>
-	  <li><a href="#about">Contact</a></li>
-	  <li><a href="#donation">Donations</a></li>
-	</ul>
-	</div>
-</section>
 
-	<h2>Présentation</h2>
-	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+    <body>
+        <div id="bloc_page">
+            <header>
+                <div id="titre_principal">
+                    <img src="images/zozor_logo.png" alt="Logo de Zozor" id="logo" />
+                    <h1>Zozor</h1>
+                    <h2>Carnets de voyage</h2>
+                </div>
+                
+                <nav>
+                    <ul>
+                        <li id="nav"><a href="#">Accueil</a></li>
+                        <li id="nav"><a href="#">Infos/a></li>
+                        <li id="nav"><a href="#">Donation</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <div id="banniere_image">
+                <div id="banniere_description">
+                    Qui sommes nous ?
+                    <a href="#" class="bouton_rouge">Plus d'infos <img src="images/flecheblanchedroite.png" alt="" /></a>
+                </div>
+            </div>
+            
+            <section>
+                <article>
+                    <h1><img src="images/ico_epingle.png" alt="Catégorie voyage" class="ico_categorie" />L'association soutien pour tous</h1>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                    <p>Vivamus sed libero nec mauris pulvinar facilisis ut non sem...</p>
+                    <p>Phasellus ligula massa, congue ac vulputate non, dignissim at augue...</p>
+                </article>
+                <aside>
+                    <h1>Faire un don</h1>
+                    <img src="images/bulle.png" alt="" id="fleche_bulle" />
+                    <p id="photo_zozor"><img src="images/zozor_classe.png" alt="Photo de Zozor" /></p>
+                    <p>Pour nous aider, vous pouvez faire une donation matérielle ou monétaire</p>
+                    <a href="#" class="bouton_rouge">Faire un don <img src="images/flecheblanchedroite.png" alt="" /></a>
+                </aside>
+            </section>
+            
+            <footer>
+                <div id="Contacter">
+                    <h1>Nous contacter</h1>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">gmail pro</a></li>
+                        <li><a href="#">gmail personel</a></li>
+                    </ul
+                </div>
+                <div id="mes_amis">
+                    <h1>En apprendre plus sur nos projets</h1>
+                    <ul>
+                        <li><a href="#">Donations à travers Casablanca</a></li>
+                        <li><a href="#">Vente de produits dérivés</a></li>
+                        <li><a href="#">Planning</a></li>
+                    </ul>
 
-	<img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Chicken_-_melbourne_show_2005.jpg" height="300">
-
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/NIk4vT5zQ2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
-
-	<h2>Remerciements</h2>
-	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
-
-
-</body>
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>
