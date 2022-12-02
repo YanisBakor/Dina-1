@@ -1,0 +1,27 @@
+* {
+    background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+}
+
+  #nav {
+    float: left;
+  }
+  
+#nav a {
+    display: block;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+#nav a:hover:not(.active) {
+    background-color: rgb(255, 246, 246);
+  }
+  
+#nav a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+  
