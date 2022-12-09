@@ -1,7 +1,17 @@
 * {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 204, 108);
   margin: 0;
   padding: 0;
+}
+
+
+#navbar {
+    list-style-type: none;
+    
+    overflow: hidden;
+    background-color: #000000;
+    position: sticky;
+    top: 0;
 }
 
   #nav {
@@ -10,18 +20,53 @@
   
 #nav a {
     display: block;
-    color: white;
-    background-color: black;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 40px;
     text-decoration: none;
   }
 #nav a:hover:not(.active) {
-    background-color: rgb(255, 246, 246);
+    background-color: rgb(249, 249, 249);
+    color: #000000;
   }
   
 #nav a.active {
     color: white;
-    background-color: #04AA6D;
+    background-color: rgb(65, 150, 34);
   }
-  
+
+  #banniere_image
+{   
+    aspect-ratio: 16 / 9;
+    margin-top: 15px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background: url('sdf.img') no-repeat;
+    background-size: 100% ;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgb(24,24,24); 
+    color: white;
+    font-size: 0.8em;
+    
+}
+
+.title {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
